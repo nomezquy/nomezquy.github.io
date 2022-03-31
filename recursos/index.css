@@ -34,6 +34,46 @@ body{
 
 }
 
+.titulo-Right{
+    position: relative;
+    color: #002130;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.subtitulo-Right{
+    position: relative;
+    color: #002130;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.contacto-icono{
+    width: 10%;
+    display: flex;
+    
+       
+}
+
+.titulo{
+    color: #fff;
+}
+
+.subtitulo{
+    color: rgba(255, 255, 255, 0.815);
+}
+.contacto-icono:hover{
+    background-color: #fff;
+    border-color: #002130;
+    border-radius: 50%;
+}
+
 .profile-text h2{
     color: #fff;
     font-size: 1.5em;
