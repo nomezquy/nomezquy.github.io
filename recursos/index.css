@@ -38,10 +38,33 @@ body{
     position: relative;
     color: #002130;
     display: flex;
+    margin-left: 0px;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.titulo1-Right{
+    position: relative;
+    color: #002130;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 24.5ch;
+    animation: typing 3s steps(24),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+@keyframes typing {
+    from{width: 0}
+}
+@keyframes blink {
+    50%{border-color: transparent;}
 }
 
 .subtitulo-Right{
