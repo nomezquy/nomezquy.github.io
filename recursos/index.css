@@ -24,6 +24,28 @@ body{
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
+
+.container-experiencia{
+    position: relative;
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+}
+
+.left-experiencia{
+    width: 160px;
+    background-color: lightblue;
+    height: 400px;
+}
+.right-experiencia{
+    width: 400px;
+    background-color: lightcyan;
+    height: 400px;
+}
+p{
+    font-size: 0.7em;
+}
+
+
 .profile-text{
     position: relative;
     display: flex;
@@ -39,6 +61,7 @@ body{
     color: #002130;
     display: flex;
     margin-left: 0px;
+    margin-top: 0px;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
