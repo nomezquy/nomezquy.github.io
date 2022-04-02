@@ -31,6 +31,12 @@ body{
     grid-template-columns:1fr 1fr ;
 }
 
+.container-conocimientos{
+    position: relative;
+    display: grid;
+    grid-template-columns:0.3fr 1fr 1fr ;
+}
+
 .left-experiencia{
     width: 160px;
     background-color: lightblue;
@@ -107,6 +113,23 @@ p{
        
 }
 
+.logo-tec{
+    width: 20%;
+    display: block;
+    
+}
+
+.logo-tec-2{
+    width: 50%;
+    display: block;
+    
+}
+
+.logo-tec-3{
+    width: 40%;
+    display: block;
+    
+}
 .titulo{
     color: #fff;
 }
