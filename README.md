@@ -10,5 +10,5 @@
 
 ## Link Page: 
 
-[link text](https://nomezquy.github.io/)
+[Click para abrir página del proyecto](https://nomezquy.github.io/)
 
